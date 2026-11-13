@@ -67,8 +67,8 @@ ACLs don't track connections, and `in` and `out` are always from the router's po
 configs/        Running configs of the three devices (password hash removed)
 docs/           Design notes and test plan (English and French)
 screenshots/    Test evidence and incident screenshots
-topology.png
-project-1-secure-network.pkt
+lab/ topology.png
+lab/ secure-network.pkt
 ```
 
 ## Tools
