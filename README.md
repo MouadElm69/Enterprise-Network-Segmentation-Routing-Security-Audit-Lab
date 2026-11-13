@@ -60,6 +60,7 @@ ACLs don't track connections, and `in` and `out` are always from the router's po
 - One switch and one uplink, so there is no redundancy.
 - The address of the web server (192.168.40.2) is not excluded from the VLAN 40 DHCP pool.
 - The "internet" is a single router, so only reachability is tested.
+- Switch management is not configured: CORE-SW has no management IP, no local user and no password, so it cannot be reached over SSH. The exported `core-switch.cfg` still contains an unused `access-list 10` and VTY lines with `access-class` and `transport input ssh`; they are leftovers and do not provide any protection.
 
 ## Repository
 
