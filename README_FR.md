@@ -4,7 +4,7 @@
 
 Un petit réseau de bureau avec cinq VLAN, construit sur Cisco Packet Tracer 9.0. Un seul routeur s'occupe du routage entre les VLAN, du DHCP et du NAT, et quelques ACL décident qui peut parler à qui. Je l'ai fait pour m'entraîner à la segmentation réseau et pour avoir un projet concret que je peux tester, documenter et expliquer.
 
-![Topologie](topology.png)
+![Topologie](lab/topology.png)
 
 ## Équipements
 
