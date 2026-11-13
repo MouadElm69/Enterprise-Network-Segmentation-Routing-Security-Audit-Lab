@@ -60,6 +60,7 @@ Les ACL ne suivent pas les connexions, et `in` et `out` se lisent toujours du po
 - Un seul switch et un seul lien montant, donc aucune redondance.
 - L'adresse du serveur web (192.168.40.2) n'est pas exclue du pool DHCP du VLAN 40.
 - « Internet » se résume à un routeur, donc seule l'accessibilité est testée.
+- La gestion du switch n'est pas configurée : CORE-SW n'a ni IP de management, ni utilisateur local, ni mot de passe, donc il n'est pas joignable en SSH. Le fichier `core-switch.cfg` exporté contient encore une `access-list 10` inutilisée et des lignes VTY avec `access-class` et `transport input ssh` ; ce sont des restes de configuration qui n'apportent aucune protection.
 
 ## Contenu du dépôt
 
