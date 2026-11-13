@@ -67,8 +67,8 @@ Les ACL ne suivent pas les connexions, et `in` et `out` se lisent toujours du po
 configs/        Configurations des trois équipements (hash du mot de passe retiré)
 docs/           Notes de conception et plan de test (anglais et français)
 screenshots/    Captures des tests et des incidents
-topology.png
-project-1-secure-network.pkt
+lab/ topology.png
+lab/ secure-network.pkt
 ```
 
 ## Outils
